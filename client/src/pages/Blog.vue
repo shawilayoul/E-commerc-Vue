@@ -6,7 +6,7 @@ import { image } from '../assets/images';
    <!--blog home image container-->
    <div class="blog-img relative mb-12">
         <img :src="image.bolg1" alt="" class="w-full h-[70vh] opacity-7" />
-        <h2 class="text-[35px] font-bold absolute top-[40%] left-[45%] text-orange">
+        <h2 class=" font-bold absolute top-[40%] left-[45%] text-orange desktop:text-[35px]  mobile:text-[20px]">
           Our Blog
         </h2>
       </div>
